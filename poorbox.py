@@ -11,6 +11,7 @@
 # This Python script will read from /dev/ttyACM0 and send key events via uinput.
 # If ACM0 doesn't work, check /dev/ttyACM?, it's probably just ACM1.
 # Install python-uinput (`pip install python-uinput`) and pyserial (`pip install pyserial`) to run this script.
+# List of accepted KEY codes here: /usr/include/linux/input-event-codes.h
 
 import serial
 import uinput
